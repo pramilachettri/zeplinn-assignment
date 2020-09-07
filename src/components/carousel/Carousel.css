@@ -1,0 +1,11 @@
+.cover-div{
+  height: 122px;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000), url("https://wallpapercave.com/wp/wp5783167.png");
+}
+.cover-profile-img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: solid 1px #15181c;
+  background: url("https://i.pinimg.com/originals/98/ab/30/98ab307035fa8a6e2e8a92c877161ad3.jpg");
+}

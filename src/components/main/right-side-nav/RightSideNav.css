@@ -1,0 +1,185 @@
+.card{
+  border-radius: 5px;
+  background-color: #15181c;
+
+}
+
+.profile-info-card, 
+  .associated-card,
+  .admin-card,
+  .moderator-card,
+  .plebs-card
+  {
+   margin-bottom: 15px;
+  }
+  .card-header, 
+  .plebs-card .card-footer,
+  .associated-card h4,
+  .card-body
+  {
+   padding: 12px;
+  }
+
+  .navbar .has-search .search-input::placeholder, 
+  .card-header h4, 
+  .admin-profile-info-div h5,
+  .admin-profile p,
+  .associated-card h4,
+  .associated-card h5,
+  .associated-card .blue-text-color,
+  .associated-grey-color,
+  .admin-card h4,
+  .moderator-card h4,
+.plebs-card h4
+    {
+      font-family: "Roboto-Medium";
+      font-weight: 500;
+    }
+    
+    .admin-card img,
+    .moderator-card img,
+    .plebs-card img
+    {
+        width: 19px;
+        height: 19px;
+        margin-right: 12px;
+    }
+    .card-header{
+        border-bottom: 2px solid #0d0d0d;
+    }
+    .clain-card h4{
+      width: calc(100% - 19px);
+    }
+    
+    .card-header h4,
+    .associated-card h4
+    {
+      font-size: 16px;
+      line-height: 1.19;
+      color: #c2c2c2;
+      margin: 0;  
+    }
+
+    
+    .admin-profile-info-div,
+    .plebs-profile-info-div
+    {
+        padding-left: 8px;
+    }
+     
+    .admin-profile-info-div img, 
+    .plebs-profile-info-div img
+    {
+        width: 17px;
+        height: 17px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .admin-profile-info-div h5,
+    .plebs-profile-info-div h5
+    {
+      font-size: 14px;
+      line-height: 1.21;
+      color: #c2c2c2;
+      margin: 0;
+    }
+
+    .associated-cover-img{
+      height: 55px;
+      background: url("https://i.pinimg.com/originals/e0/8a/09/e08a099e559cf0594462db267ee81fc1.jpg");
+   }
+   .associated-card .card-body{
+    margin-top: -38px;
+   }
+  .associated-img{
+    width: 50px;
+    height: 50px;
+    border: solid 1px #15181c;
+    border-radius: 50%;
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/a2f7c9d8-a913-4273-847f-705be41395df/da7m3i8-0055a879-8c1c-4b3c-a552-432db93a14fd.png/v1/fill/w_926,h_863,q_70,strp/dedsec_logo_by_junguler_da7m3i8-pre.jpg");
+  }
+  .associated-info-div{
+      width: calc(100% - 58px);
+      padding-left: 8px;
+  }
+  .associated-card h5{
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 6px;
+    margin-top: 0px;
+  }
+  .associated-card p{
+      margin:0;
+  }
+  .associated-card .blue-text-color{
+    font-size: 14px;
+    line-height: 1.21;
+  }
+  .associated-grey-color{
+    font-size: 11px;
+    line-height: 1.18;
+    color: #c2c2c2;
+    margin-left: 6px;
+  }
+  .follower-div, .following-div{
+    padding: 7px 12px;
+  }
+  .admin-profile{
+    margin-bottom: 12px;
+  }
+  .admin-profile:last-child{
+    margin-bottom: 0px;
+  }
+  .admin-profile-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .admin-profile-info-div{
+     width:calc(100% - 48px);
+  }
+  .plebs-profile-info-div{
+    width:calc(100% - 68px);
+  }
+  .admin-img-1{
+    background: url("https://uifaces.co/our-content/donated/W9V6aXAc.jpg");
+  }
+  .admin-img-2{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ2Q_om3zCiEhN9l8Fgu_RsYTNsLScAdE0kvw&usqp=CAU");
+  }
+  .admin-img-3{
+    background: url("https://images.wallpapersden.com/image/download/dedsec-watch-dogs_69789_1366x768.jpg");
+  }
+  .admin-img-4{
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/479519f2-7f0c-49f4-8131-65d6f3a0c627/daq38c1-e5766bb7-2751-4c11-86c4-7dc249f67459.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNDc5NTE5ZjItN2YwYy00OWY0LTgxMzEtNjVkNmYzYTBjNjI3XC9kYXEzOGMxLWU1NzY2YmI3LTI3NTEtNGMxMS04NmM0LTdkYzI0OWY2NzQ1OS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.4gHhUZS-6XMolPagfKTaGebUP5MaqTZS96xU_tUiCf8");
+  }
+  .plebs-img-1{
+    background: url("https://uifaces.co/our-content/donated/cZSdIsrF.png");
+  }
+  .plebs-img-2{
+    background: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMjI3NTkyMDYyOF5BMl5BanBnXkFtZTgwNjkyNzc4OTE@._V1_UY256_CR10,0,172,256_AL_.jpg");
+  }
+  .border-right{
+     border-right: 2px solid #0d0d0d;
+  }
+  .card-footer{
+    text-align: center;
+    border-top: 2px solid #0d0d0d;
+  }
+  .card-footer a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
+
+.image-property{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

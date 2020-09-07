@@ -1,0 +1,298 @@
+
+.view-card ul, 
+.thread-card ul{
+    padding-left: 0px;
+}
+
+.thread-profile .center-align span,
+.thread-card li,
+.card-footer a
+{
+    font-family: "Roboto-Regular";
+}
+
+.view-card li, 
+.thread-card li{
+    display: inline-block;
+}
+
+.navbar .has-search .search-input::placeholder, 
+    .card-header h4, 
+    .view-card h3, 
+    .thread-card h3,
+    .thread-profile-info-div h5,
+    .thread-profile p
+    {
+        font-family: "Roboto-Medium";
+        font-weight: 500;
+    }
+
+    .main-col{
+      width:58%;
+      padding: 0px 20px;
+  }
+  .view-card, .thread-card{
+      margin-bottom:8px;
+      padding: 12px 16px;
+  }
+  .view-card{
+      justify-content: space-between;
+  }
+  .view-card ul{
+      margin: 0;
+  }
+  .view-card li{
+      margin-right: 12px;
+  }
+  .view-card li img{
+      margin-top: 1px;
+      display: block;
+  }
+  .view-card h3{
+      font-size: 18px;
+      line-height: 1.22;
+      color: #c2c2c2;
+      margin: 0px;
+  }
+  .view-card button{
+      font-size: 14px;
+      line-height: 1.21;
+  }
+  .thread-img{
+      width: 160px;
+      height: 120px;
+      border-radius: 5px;
+      background-color: #202226;
+  }
+  .thread-img img{
+      width: 40px;
+      height: 40px;
+      margin: auto;
+  }
+  .thread-info-div{
+      width: calc(100% - 176px);
+      padding-left: 16px;
+  }
+  .thread-profile 
+  {
+      margin-bottom: 8px;
+  }
+  .thread-profile p, 
+  .admin-profile p{
+      font-size: 12px;
+      line-height: 1.17;      
+      margin-top: 0;
+      margin-bottom: 2px;
+  }
+  .thread-profile-img{
+      width: 33px;
+      height: 33px;
+      border-radius: 50%;
+      background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkLNFmJUgIdyQvFziXe5tw3UKp7YnK9Kgkpg&usqp=CAU");
+  }
+  .thread-profile-info-div{
+      width:calc(100% - 41px);
+  }
+  .thread-profile-info-div 
+  {
+      padding-left: 8px;
+  }
+  .thread-profile-info-div img 
+  {
+      width: 17px;
+      height: 17px;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+  .thread-profile-info-div h5 
+  {
+      font-size: 14px;
+      line-height: 1.21;
+      color: #c2c2c2;
+      margin: 0;
+  }
+  .thread-profile .center-align span{
+      font-size: 12px;
+      line-height: 1.17;
+      color: #707070;
+  }
+  .thread-card .badge-div img{
+      width: 19px;
+      height: 19px;
+      object-fit: contain;
+      margin-left: 6px;
+      display: block;
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+  .thread-card h3{
+      font-size: 18px;
+      line-height: 1.22;
+      margin:10px 0;
+      color: #c2c2c2;
+  }
+  .thread-card ul{
+      margin: 0;
+  }
+  .thread-card li{
+      font-size: 14px;
+      line-height: 1.21;
+      color: #707070;
+      border-right: 2px solid #707070;
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+  .thread-card li:first-child{
+      padding-left: 0px;
+  }
+  .thread-card li:last-child{
+      border-right:none;
+  }
+  .thread-card li img{
+      width: 20px;
+      height: 12px;
+      object-fit: contain;
+      margin-right: 10px;
+  }
+  .img-1{
+      background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQTiRIjKUHacG_D6oVt1ojkWVccvw4aBRJDZw&usqp=CAU");
+  }
+  .img-2{
+      background: url("https://images.unsplash.com/photo-1464925257126-6450e871c667?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  }
+  .img-3{
+      background: url("https://images.unsplash.com/photo-1599240211563-17590b1af857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  }
+  .img-4{
+      background: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  }
+
+  /* Responsiv */
+
+  
+@media (max-width: 1286px) {
+    .navbar .has-search .search-input {
+     width: 170px;
+    }
+    .navbar .navbar-elements, 
+    .cover-div-width, 
+    .sub-navbar-width, 
+    .container {
+     width: 95%;
+    }
+    .associated-card .card-footer{
+     justify-content: center;
+    }
+    .follower-div, .following-div{
+     flex-direction: column;
+    }
+    .associated-grey-color{
+        margin-top: 5px;
+    }
+  }
+  @media (max-width: 1214px) {
+    .sub-navbar-width{
+      flex-direction: column-reverse;
+      height: auto;
+    }
+    .sub-navbar button{
+      margin-left: auto;
+      border-radius: 20px;
+      background-color: transparent;
+      color: #3677ef;
+    }
+  }
+  @media (max-width: 991px) {
+    .collapse-icon{
+      display: block;
+    }
+    .right-side-col, .left-side-col, .navbar ul{
+     display: none;
+    }
+    .main-col{
+     width:100%;
+    } 
+    .navbar .has-search .search-input {
+      width: 222px;
+    }
+    .navbar .navbar-elements{
+     justify-content: unset;
+    }
+    .profile-img-div {
+      border-left:none;
+      border-right:none;
+      margin-left: auto;
+    }
+    .cover-profile-img{
+      margin-top: 105px;
+    }
+    .view-card button{
+      border-radius: 15px;
+    }
+    .desktop-list{
+      display: none;
+    }
+    .mobile-list{
+      display: block;
+    } */
+    .thread-card ul{
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 470px) {
+    .navbar .navbar-elements, 
+    .cover-div-width, 
+    .sub-navbar-width, 
+    .container {
+      width: 100%;
+    }
+     .sub-navbar .mobile-flex{
+      flex-direction: column;
+    }
+    .sub-navbar ul{
+      padding-left: 0px;
+      padding-top: 7px;
+    }    
+    .navbar, .cover-div{
+      padding:0 12px;
+    } 
+     .navbar .logo-img {
+      width: 39px;
+      height: 40px;
+    } 
+     .navbar .has-search .search-input {
+      width: 150px;
+    }
+    .collapse-icon {
+      width: 30px;
+    }
+    .profile-img {
+      width: 40px;
+      height: 40px;
+    } */
+     .sub-navbar {
+      padding: 11px 12px;
+    } 
+    .main-col{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .thread-img{
+      width: 80px;
+      height: 80px;
+    }
+    .thread-info-div{
+        padding-left: 12px;
+        width: calc(100% - 92px);
+    }
+    .thread-card li img {
+        margin-right: 4px;
+    }
+    .thread-card li {
+        font-size: 12px;
+    }
+    .thread-card h3{
+        font-size: 14px;
+        margin: 8px 0;
+    }
+  }

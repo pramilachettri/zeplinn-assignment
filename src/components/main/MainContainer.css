@@ -1,0 +1,145 @@
+.cover-div-width,
+.sub-navbar-width, 
+.container{
+  width:90%;
+  margin: 0 auto;
+}
+.container{
+  padding: 15px 0px 65px 0px;
+}
+.container .left-side-col, .container .right-side-col{
+  width:21%;
+}
+.card{
+  border-radius: 5px;
+  background-color: #15181c;
+}
+
+/* responsive */
+
+@media (max-width: 1286px) {
+  .navbar .has-search .search-input {
+   width: 170px;
+  }
+  .navbar .navbar-elements, 
+  .cover-div-width, 
+  .sub-navbar-width, 
+  .container {
+   width: 95%;
+  }
+  .associated-card .card-footer{
+   justify-content: center;
+  }
+  .follower-div, .following-div{
+   flex-direction: column;
+  }
+  .associated-grey-color{
+      margin-top: 5px;
+  }
+}
+@media (max-width: 1214px) {
+  .sub-navbar-width{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .sub-navbar button{
+    margin-left: auto;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #3677ef;
+  }
+}
+@media (max-width: 991px) {
+  .collapse-icon{
+    display: block;
+  }
+  .right-side-col, .left-side-col, .navbar ul{
+   display: none;
+  }
+  .main-col{
+   width:100%;
+  }
+  .navbar .has-search .search-input {
+    width: 222px;
+  }
+  .navbar .navbar-elements{
+   justify-content: unset;
+  }
+  .profile-img-div {
+    border-left:none;
+    border-right:none;
+    margin-left: auto;
+  }
+  .cover-profile-img{
+    margin-top: 105px;
+  }
+  .view-card button{
+    border-radius: 15px;
+  }
+  .desktop-list{
+    display: none;
+  }
+  .mobile-list{
+    display: block;
+  }
+  .thread-card ul{
+    margin-top: 10px;
+  }
+}
+@media (max-width: 470px) {
+  .navbar .navbar-elements, 
+  .cover-div-width, 
+  .sub-navbar-width, 
+  .container {
+    width: 100%;
+  }
+  .sub-navbar .mobile-flex{
+    flex-direction: column;
+  }
+  .sub-navbar ul{
+    padding-left: 0px;
+    padding-top: 7px;
+  }    
+  .navbar, .cover-div{
+    padding:0 12px;
+  }
+  .navbar .logo-img {
+    width: 39px;
+    height: 40px;
+  }
+  .navbar .has-search .search-input {
+    width: 150px;
+  }
+  .collapse-icon {
+    width: 30px;
+  }
+  .profile-img {
+    width: 40px;
+    height: 40px;
+  }
+  .sub-navbar {
+    padding: 11px 12px;
+  }
+  .main-col{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .thread-img{
+    width: 80px;
+    height: 80px;
+  }
+  .thread-info-div{
+      padding-left: 12px;
+      width: calc(100% - 92px);
+  }
+  .thread-card li img {
+      margin-right: 4px;
+  }
+  .thread-card li {
+      font-size: 12px;
+  }
+  .thread-card h3{
+      font-size: 14px;
+      margin: 8px 0;
+  }
+}

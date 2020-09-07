@@ -1,0 +1,132 @@
+.navbar ul, 
+.sub-navbar ul, 
+.tag-list, 
+.torum-links-card ul, 
+.view-card ul, 
+.thread-card ul{
+    padding-left: 0px;
+}
+.navbar li, 
+.sub-navbar li, 
+.torum-links-card li,
+.message-list div, 
+.notification-list div,
+.sub-navbar p,
+.thread-profile .center-align span,
+.thread-card li,
+.card-footer a
+{
+    font-family: "Roboto-Regular";
+}
+.navbar li, 
+.sub-navbar li, 
+.tag-list li, 
+.torum-links-card li, 
+.view-card li, 
+.thread-card li{
+    display: inline-block;
+}
+.profile-img, .left-profile-img{
+    border-radius: 50%;
+    background: url("https://www.pngkit.com/png/full/79-798666_best-wrench-watch-dogs-2-wallpaper-dedsec-explore.png");
+}
+/* navbar css */
+
+.navbar{
+    height: 60px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(92deg, #682be6, #2196f3);
+}
+.navbar .navbar-elements{
+    width: 80%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.navbar .logo-img{
+    width: 43px;
+    height: 45px;
+    object-fit: contain;
+}
+.navbar .has-search {
+    width: calc(100% - 43px);
+    position: relative;
+    padding-left: 30px;
+}
+.navbar .has-search .search-input {
+    padding: 5px 15px;
+    width: 284px;
+    height: 40px;
+    border-radius: 3px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #3d39d6;
+    border:none;
+}
+.navbar .has-search .search-input::placeholder {
+    color:#ffffff;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.navbar .has-search .search-img {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+    color: fffffff;
+    right: 22px;
+    top: 12px;
+    bottom: 0px;
+}
+.navbar ul{
+    margin: auto 0 auto auto;
+}
+.navbar li {
+    margin-right: 29px;
+    font-size: 12px;
+    line-height: 1.17;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+.navbar li img{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin: 0 auto 6px auto;
+    display: block;
+}
+.message-list, .notification-list{
+  position: relative;
+}
+.message-list div, .notification-list div{
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-radius: 50%;
+  background: #eb4141;
+  top: -7px;
+  font-size: 11px;
+  line-height: 1.18;
+  text-align: center;
+  color: #ffffff;
+}
+.message-list div{
+  right: 7px;
+}
+.notification-list div{
+  right: 15px;
+}
+.profile-img-div{
+  padding: 0 19.5px;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+}
+.profile-img{
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+}

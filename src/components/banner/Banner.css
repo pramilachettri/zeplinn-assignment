@@ -1,0 +1,53 @@
+.sub-navbar{
+  padding: 11px 0px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.17);
+  background-image: linear-gradient(to bottom, #0d0d0d, #15181c);
+}
+.sub-navbar-width{
+  justify-content: space-between;
+  height: 100%;
+}
+.sub-navbar h2{
+  font-size: 20px;
+  line-height: 1.2;
+  color: #c2c2c2;
+  margin: 0;
+}
+.sub-navbar p{
+  font-size: 16px;
+  line-height: 1.38;
+  color: #989898;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.sub-navbar ul{
+  margin: auto 0;
+  padding-left:25px;
+}
+.sub-navbar li{
+  font-size: 14px;
+  line-height: 1.21;
+  margin-right: 8px;
+}
+.sub-navbar img{
+  width: 19px;
+  height: 16px;
+  object-fit: contain;
+  padding-top:1px;
+  margin-right: 8px;
+}
+.sub-navbar button{
+  font-size: 15px;
+  line-height: 1.2;
+  margin-top: 12px;
+  margin-bottom: auto;
+}
+.sub-navbar button, 
+.view-card button{
+  text-align: center;
+  color: #ffffff;
+  border-radius: 2px;
+  padding: 7px 22px;
+  border: solid 1px #3677ef;
+  background-color: #3677ef;
+}

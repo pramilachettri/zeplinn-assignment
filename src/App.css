@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Roboto-Medium";
+  /* src: url("../fonts/Roboto-Medium.ttf"); */
+  src: url("./assets/fonts/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  /* src: url("../fonts/Roboto-Regular.ttf"); */
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+body{
+  margin:0;
+  background: #0d0d0d;
+}
+.vertical-align{
+  display: grid;
+  align-content: center;
+}
+.center-align{
+  align-items: center;
+}
+.flex-div{
+  display: flex;
+}
+.grey-text-color{
+  color: #989898;
+}
+.blue-text-color{
+  color: #3677ef;
+}
+.orange-text-color{
+  color: #ff6536;
+}
+.green-text-color{
+  color: #26b99a;
+}
+.yellow-text-color{
+  color: #ffaa00;
+}
+.background-red{
+  background-color:#8b0000;
+}
+.background-light-green{
+  background-color:#008b78;
+}
+.background-dark-green{
+  background-color:#008b25;
+}
+.background-mustard{
+  background-color:#8b8200;
+}
+.background-orange{
+  background-color:#cc6600;
+}
+.background-purple{
+  background-color:#70008b;
+}
+.background-blue{
+  background-color:#003c8b;
+}
+.collapse-icon, .mobile-list{
+  display:none;
+}
+.collapse-icon{
+  width: 40px;
+}
